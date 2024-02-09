@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Protest+Riot&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+body {
+    background-color: #48A9A6;
+    color: #E4DFDA;
+    text-align: center;
+}
+
+h1 {
+    font-size: 10vmin;
+    margin-top: 1rem;
+}
+
+.gameBox {
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 15vmin;
+    width: 15vmin;
+    font-size: 8vmin;
+    background-color: #E4DFDA;
+    color: #48A9A6;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#msg {
+    font-size: 6vmin;
+    margin-bottom: 0.6rem;
+}
+
+.hide {
+    display: none;
+}
+
+.btn {
+    padding: 2vmin;
+    font-size: 3vmin;
+    background-color: #E4DFDA;
+    color: #48A9A6;
+    border-radius: 1rem;
+    border: none;
+    cursor: pointer;
+}
